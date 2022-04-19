@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #bdf;
+  
+}
+/*nav-bar*/
+.nav-bar-fixing{
+    width: 100%;
+    height: 50px;
+}
+
+.nav-bar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+ 
+}
+
+/*header*/
+
+header{
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+  
+}
+
+/*layout*/
+
+.container{
+    width: 90%;
+    max-width: 682px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    
+   
+   
+}
+.container p{
+text-align: center;
+font-size: 1.5rem;
+}
+
+.form-row{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.labels{
+    width: 50%;
+   text-align: right;
+   margin-right: 1rem;
+}
+.fields{
+    width: 50%;
+   
+}
+.fields input{
+    width: 80%;
+    height: 27px;
+    padding: 2px;
+   
+}
+
+.drop-down{
+    width: 50%;
+   
+}
+.drop-down select{
+    height: 40px;
+    background-color: lightgray;
+}
+.radio-type{
+    width: 50%;
+}
+.radio-type div{
+    padding-bottom: 0.25rem;
+}
+.radio-type input{
+   margin-right: 0.25rem;
+    
+}
+.check-box{
+    width: 50%;
+}
+.check-box div{
+    padding-bottom: 0.25rem;
+}
+.check-box input{
+    margin-right: 0.25rem;
+}
+.textarea{
+    width: 50%;
+}
+textarea{
+    height: 50px;
+    width: 80%;
+}
+
+.btn{
+    margin-top: 2rem;
+    height: 40px;
+    width: 86px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    border: none;
+}
+.btn:hover{
+    background-color: lightslategray;
+    color: white;
+    border: 1px solid black;
+}
+@media screen and (max-width:400px){
+  
+    .form-row{
+        flex-direction: column;
+       
+    }
+    .labels{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .fields{
+        width: 100%;
+        text-align: center;
+    }
+    .drop-down{
+        width: 100%;
+        text-align: center;
+    }
+    .radio-type{
+        width: 50%;
+        margin-left: 36%;
+       
+    }
+    .check-box{
+        width: 50%;
+        margin-left: 36%;
+        
+    }
+    .textarea{
+        width: 100%;
+        text-align: center;
+    }
+    .button{
+        width: 100%;
+        text-align: center;
+    }
+}
